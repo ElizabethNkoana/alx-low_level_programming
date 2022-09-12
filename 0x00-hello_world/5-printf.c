@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * Main - print using the printf function
- * Description - by using the main function , the program will print 
+ * main - print using the printf function
+ *
+ * Description - by using the main function the program will print 
  * with proper grammar, but the outcome is a piece of art,
  * Return: 0
  */
