@@ -25,7 +25,8 @@ else if (n == 0)
 	printf("%i is zero\n", n);
 }
 else if (n < 0)
+{
 	printf("%i is negative\n", n);
 }
-return (0);
+Return (0)
 }
