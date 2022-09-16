@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print a combination of single digit numbers separated by comma and space
+ * main - print single digit numbers 1-9 separated by comma and space
  *
  * Description: by using the main function
  * this program prints "1, 2, 3, 4, 5, 6, 7, 8, 9"
