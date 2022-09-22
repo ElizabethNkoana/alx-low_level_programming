@@ -1,4 +1,4 @@
-#include "main.h"
+#include "HOLERTON_H_INCLUDED"
 
 /**
  * _isupper - a function that checks for uppercase character
