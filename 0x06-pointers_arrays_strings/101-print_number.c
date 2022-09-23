@@ -7,6 +7,7 @@
  *
  * Return: void
  */
+
 void print_number(int n)
 {
 	unsigned int m, d, count;
@@ -23,6 +24,7 @@ void print_number(int n)
 
 	d = m;
 	count = 1;
+
 	while (d > 9)
 	{
 		d /= 10;
@@ -33,5 +35,4 @@ void print_number(int n)
 	{
 		_putchar(((m / count) % 10) + 48);
 	}
-	return (0);
 }
