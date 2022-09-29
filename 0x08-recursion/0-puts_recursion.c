@@ -3,19 +3,15 @@
 /**
  * _puts_recursion - Prints a string, followed by a new line.
  * @s: The string to be printed.
- *
- * Return: Always 0
  */
 void _puts_recursion(char *s)
 {
-	if (s*)
+	if (s *)
 	{
 		_putchar(*s);
 		_puts_recursion(s + 1);
 	}
 	else
-		_putchar('\n');
-
-	return (0);
+		_putchar('\n')
 }
 
