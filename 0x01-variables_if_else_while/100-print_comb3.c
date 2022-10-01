@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 /**
  * main - prints all possible different combinations of two digits.
@@ -10,28 +11,25 @@
  */
 int main(void)
 {
-	int n1 = 0, n2;
-	while (n1 <= 9)
+	int d, p;
+
+	for (d = '0'; d < '9'; d++)
 	{
-		n2 = 0;
-		while (n2 <= 9)
+		for (p = d + 1; p <= '9'; p++)
 		{
-			if (n1 != n2 && n1 < n2)
+			if (p != d)
 			{
-				putchar(n1 + 48);
-				putchar(n2 + 48);
+				putchar(d);
+				putchar(p);
 
-				if (n1 + n2 != 17)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				if (d == '8' && p == '9')
+					continue;
+
+				putchar(',');
+				putchar(' ');
 			}
-			++n2;
 		}
-		++n2;
 	}
-
 	putchar('\n');
 	return (0);
 }
