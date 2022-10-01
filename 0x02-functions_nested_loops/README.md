@@ -1,3 +1,5 @@
+0x02. C - Functions, nested loops
+
 0. A program that prints _putchar, followed by a new line. The program return 0
 
 1. A function that prints the alphabet, in lowercase, followed by a new line.Prototype: void print_alphabet(void); and the _putchar was only used twice in my code.
@@ -21,3 +23,13 @@
 10. A function that adds two integers and returns the result. Prototype: int add(int, int);
 
 11. A function that prints all natural numbers from n to 98, followed by a new line. Prototype: void print_to_98(int n);
+
+12. A function that prints the n times table, starting with 0.
+
+13. A program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
+
+14. A program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+
+15. A program that finds and prints the sum of the even-valued terms, followed by a new line.
+
+16. A program that finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line.
