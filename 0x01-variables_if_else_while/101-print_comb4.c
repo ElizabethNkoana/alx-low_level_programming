@@ -3,28 +3,27 @@
 #include <time.h>
 
 /**
- * main - prints all possible different combinations of three digits
+ * main - prints all possible different combinations of three digitsi
+ * Numbers must be separated by ,, followed by a space
  *
  * Return: 0
  */
 int main(void)
 {
-	int m, n, o;
+	int num1, num2, num3;
 
-	for (m = 0, m < '9'; o++)
+	for (num1 = 0; num1 < 8; num1++)
 	{
-		for (n = m + 1; n <= '9'; n++)
+		for (num2 = num1 + 1; num2 < 9; num2++)
 		{
-			for (o = n + 1; o <= '9'; o++)
+			for (num3 = num2 + 1; num3 < 10; num3++)
 			{
-				if ((m != n) != o)
-				{
-					putchar(m);
-					putchar(n);
-					putchar(o);
+				putchar((num1 % 10) + '0');
+				putchar((num2 % 10) + '0');
+				putchar((num3 % 10) + '0');
 
-					if (m == '7' && n == '8')
-						continue;
+				if (num1 == 7 && num2 == 8 && num3 == 9)
+					continue;
 
 					putchar(',');
 					putchar(' ');
