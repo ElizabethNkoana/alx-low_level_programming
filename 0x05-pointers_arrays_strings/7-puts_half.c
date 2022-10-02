@@ -2,7 +2,7 @@
 
 /**
  * puts_half - prints half of a string, followed by a new line
- * @str: printer
+ * @str: the string to be printed.
  *
  * Return: 0
  */
@@ -13,7 +13,7 @@ void puts_half(char *str)
 	while (str[i++])
 		len++;
 
-	if ((len % 2) == 0)
+	if (len % 2 == 0)
 	{
 		n = len / 2;
 	}
