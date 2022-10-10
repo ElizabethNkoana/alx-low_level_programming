@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 {
 	int result, num1, num2;
 
-	if (argv != 3)
+	if (argc != 3)
 	{
 		print("%s\n", "Error");
 		return (1);
