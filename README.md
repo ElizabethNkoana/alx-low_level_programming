@@ -17,3 +17,5 @@ The low level programming repository
 0x07. C - Even more pointers, arrays and strings
 
 0x08. C - Recursion
+
+0x09-static_libraries
