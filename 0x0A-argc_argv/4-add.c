@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -7,7 +6,7 @@
  * @argc: arguments count
  * @argv: arguments
  *
- * Return: Always 0 on success
+ * Return: 0 on success or 1 in error
  */
 int main(int argc, char *argv[])
 {
@@ -30,5 +29,5 @@ int main(int argc, char *argv[])
 		result += num;
 	}
 	printf("%d\n", result);
-	result(0);
+	return (0);
 }
